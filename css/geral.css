@@ -1,0 +1,117 @@
+/* RESETA CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/* CONTAINERS */
+
+body {
+    background-color: #58349B;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #F2EA5C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 80px;
+    min-height: 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #9C9635;
+    min-height: 50px;
+    margin-top: auto;
+    text-align: center;
+}
+
+.logotype-logomark
+{
+    display: flex;
+    align-items: center;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/* LISTAS */
+
+ul,
+li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/* IMAGENS */
+
+header img
+{
+    height: 50px;
+    width: 50px;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/* ÂNCORAS */
+
+a
+{
+    text-decoration: none;
+    color: #372E46;
+}
+
+a:visited
+{
+    color: #372E46;
+}
+
+.menu li a
+{
+    margin-left: padding 5px;
+    color: #372E46;
+}
+
+.menu li a:hover
+{
+    font-size: 1.4rem;
+    color: #59359C;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/* TEXTO */
+
+.pompiere-regular
+{
+    font-family: "Pompiere", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1.pompiere-regular
+{
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
